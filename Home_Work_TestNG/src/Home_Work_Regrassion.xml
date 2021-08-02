@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Home_Work_Foure_Regrassion_Suite">
+
+<test name = "Home_Work_Foure_Regrassion">
+
+<classes>
+
+<class name = "Home_Work_Foure_Scripts.ValidateLink"></class>
+<class name = "Home_Work_Foure_Scripts.YahoosignupTestNG"></class>
+<class name = "Home_Work_Foure_Scripts.YahooTestNG"></class>
+</classes>
+
+</test>
+
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Multiple_Regrassion_Test">
+
+<test name = "Sauce_Demo_Regression">
+
+<classes>
+
+<class name = "Multiple_Test_scripts.SauceDemoShopingTestNG"></class>
+<class name = "Multiple_Test_scripts.Validating_positive_negative_Data"></class>
+
+</classes>
+
+</test>
+
+</suite>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Data Driven login Test">
+
+
+	<test name="validating positive data">
+
+		<parameter name="standard_user" value="standard_user"></parameter>
+		<parameter name="password" value="secret_sauce"></parameter>
+		<parameter name="expectedvalue" value="https://www.saucedemo.com/inventory.html"></parameter>
+		<classes>
+			<class name="Multiple_Test_scripts.Sauce_Demo_Data_Driven"></class>
+		</classes>
+	</test>
+
+
+	<test name="validating negative data">
+
+		<parameter name="userid" value="locked_out_user"></parameter>
+		<parameter name="password" value="secret_sauce"></parameter>
+		<parameter name="expectedvalue" value="https://www.saucedemo.com/"></parameter>
+
+		<classes>
+			<class name="Multiple_Test_scripts.Sauce_Demo_Data_Driven"></class>
+		</classes>
+
+	</test>
+		<test name="Multiple_Test_scripts.">
+
+		<parameter name="" value=""></parameter>
+		<parameter name="" value=""></parameter>
+		<parameter name="expectedvalue" value="https://www.saucedemo.com/"></parameter>
+
+		<classes>
+			<class name="Multiple_Test_scripts.Sauce_Demo_Data_Driven"></class>
+		</classes>
+
+	</test>
+
+
+</suite>

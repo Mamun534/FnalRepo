@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sauce_Demo_Data_Driven" duration-ms="29798" started-at="2021-05-28T06:58:57Z" finished-at="2021-05-28T06:59:26Z">
+    <groups>
+    </groups>
+    <test name="Sauce Demo Positive Data Test" duration-ms="10582" started-at="2021-05-28T06:58:57Z" finished-at="2021-05-28T06:59:07Z">
+      <class name="Multiple_Test_scripts.Sauce_Demo_Data_Driven">
+        <test-method status="PASS" signature="Beforetest()[pri:0, instance:Multiple_Test_scripts.Sauce_Demo_Data_Driven@32d992b2]" name="Beforetest" is-config="true" duration-ms="3580" started-at="2021-05-28T02:58:57Z" finished-at="2021-05-28T02:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforetest -->
+        <test-method status="PASS" signature="GoToHomePage()[pri:0, instance:Multiple_Test_scripts.Sauce_Demo_Data_Driven@32d992b2]" name="GoToHomePage" is-config="true" duration-ms="77" started-at="2021-05-28T02:59:00Z" finished-at="2021-05-28T02:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToHomePage -->
+        <test-method status="FAIL" signature="validatingLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Multiple_Test_scripts.Sauce_Demo_Data_Driven@32d992b2]" name="validatingLogin" duration-ms="4594" started-at="2021-05-28T02:59:00Z" finished-at="2021-05-28T02:59:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/inventory.html]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at Multiple_Test_scripts.Sauce_Demo_Data_Driven.validatingLogin(Sauce_Demo_Data_Driven.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingLogin -->
+        <test-method status="PASS" signature="TakenScreenShots()[pri:0, instance:Multiple_Test_scripts.Sauce_Demo_Data_Driven@32d992b2]" name="TakenScreenShots" is-config="true" duration-ms="310" started-at="2021-05-28T02:59:05Z" finished-at="2021-05-28T02:59:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakenScreenShots -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:Multiple_Test_scripts.Sauce_Demo_Data_Driven@32d992b2]" name="endTest" is-config="true" duration-ms="1993" started-at="2021-05-28T02:59:05Z" finished-at="2021-05-28T02:59:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- Multiple_Test_scripts.Sauce_Demo_Data_Driven -->
+    </test> <!-- Sauce Demo Positive Data Test -->
+    <test name="Sauce Demo Negative Data Test" duration-ms="9723" started-at="2021-05-28T06:59:07Z" finished-at="2021-05-28T06:59:17Z">
+      <class name="Multiple_Test_scripts.Sauce_Demo_Data_Driven">
+        <test-method status="PASS" signature="Beforetest()[pri:0, instance:Multiple_Test_scripts.Sauce_Demo_Data_Driven@1753acfe]" name="Beforetest" is-config="true" duration-ms="2583" started-at="2021-05-28T02:59:07Z" finished-at="2021-05-28T02:59:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforetest -->
+        <test-method status="PASS" signature="GoToHomePage()[pri:0, instance:Multiple_Test_scripts.Sauce_Demo_Data_Driven@1753acfe]" name="GoToHomePage" is-config="true" duration-ms="96" started-at="2021-05-28T02:59:10Z" finished-at="2021-05-28T02:59:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToHomePage -->
+        <test-method status="PASS" signature="validatingLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Multiple_Test_scripts.Sauce_Demo_Data_Driven@1753acfe]" name="validatingLogin" duration-ms="4470" started-at="2021-05-28T02:59:10Z" finished-at="2021-05-28T02:59:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingLogin -->
+        <test-method status="PASS" signature="TakenScreenShots()[pri:0, instance:Multiple_Test_scripts.Sauce_Demo_Data_Driven@1753acfe]" name="TakenScreenShots" is-config="true" duration-ms="348" started-at="2021-05-28T02:59:14Z" finished-at="2021-05-28T02:59:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakenScreenShots -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:Multiple_Test_scripts.Sauce_Demo_Data_Driven@1753acfe]" name="endTest" is-config="true" duration-ms="2225" started-at="2021-05-28T02:59:15Z" finished-at="2021-05-28T02:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- Multiple_Test_scripts.Sauce_Demo_Data_Driven -->
+    </test> <!-- Sauce Demo Negative Data Test -->
+    <test name="Sauce Demo problem user Data Test" duration-ms="9443" started-at="2021-05-28T06:59:17Z" finished-at="2021-05-28T06:59:26Z">
+      <class name="Multiple_Test_scripts.Sauce_Demo_Data_Driven">
+        <test-method status="PASS" signature="Beforetest()[pri:0, instance:Multiple_Test_scripts.Sauce_Demo_Data_Driven@675d3402]" name="Beforetest" is-config="true" duration-ms="2612" started-at="2021-05-28T02:59:17Z" finished-at="2021-05-28T02:59:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforetest -->
+        <test-method status="PASS" signature="GoToHomePage()[pri:0, instance:Multiple_Test_scripts.Sauce_Demo_Data_Driven@675d3402]" name="GoToHomePage" is-config="true" duration-ms="99" started-at="2021-05-28T02:59:19Z" finished-at="2021-05-28T02:59:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToHomePage -->
+        <test-method status="FAIL" signature="validatingLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Multiple_Test_scripts.Sauce_Demo_Data_Driven@675d3402]" name="validatingLogin" duration-ms="4474" started-at="2021-05-28T02:59:20Z" finished-at="2021-05-28T02:59:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/inventory.html]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at Multiple_Test_scripts.Sauce_Demo_Data_Driven.validatingLogin(Sauce_Demo_Data_Driven.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingLogin -->
+        <test-method status="PASS" signature="TakenScreenShots()[pri:0, instance:Multiple_Test_scripts.Sauce_Demo_Data_Driven@675d3402]" name="TakenScreenShots" is-config="true" duration-ms="372" started-at="2021-05-28T02:59:24Z" finished-at="2021-05-28T02:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakenScreenShots -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:Multiple_Test_scripts.Sauce_Demo_Data_Driven@675d3402]" name="endTest" is-config="true" duration-ms="1886" started-at="2021-05-28T02:59:24Z" finished-at="2021-05-28T02:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- Multiple_Test_scripts.Sauce_Demo_Data_Driven -->
+    </test> <!-- Sauce Demo problem user Data Test -->
+  </suite> <!-- Sauce_Demo_Data_Driven -->
+</testng-results>
