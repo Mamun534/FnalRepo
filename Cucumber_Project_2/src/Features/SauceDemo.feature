@@ -4,7 +4,7 @@
 Feature: Sauce Demo Shopping
 
 @smoke
-  Scenario: Sauce Demo Shopping using Functions
+ Scenario: Sauce Demo Shopping using Functions
   
     Given user are in the login page
     When user are able to type user name
